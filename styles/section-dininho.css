@@ -1,0 +1,17 @@
+.section-dininho {
+  background: linear-gradient(90deg, rgba(126,80,2,1) 0%, rgba(250,209,33,1) 100%);;
+  color: #fff;
+  text-align: center;
+}
+
+.section-dininho > .title {
+  font-family: 'Bungee', sans-serif;  
+  text-transform: uppercase;
+  font-size: 50%;
+}
+
+.section-dininho > .description {
+  font-family: 'Nunito' ,sans-serif;
+  line-height: 10px;
+  font-size: 20%;
+}

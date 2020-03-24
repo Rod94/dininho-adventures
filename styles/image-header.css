@@ -1,4 +1,7 @@
 .image-header {
+  display: flex;
+  overflow: hidden;
   width: 100%;
-  position: absolute;
+  height: 100%;
+  position: relative;
 }

@@ -1,0 +1,64 @@
+body {  
+  background: linear-gradient(180deg, #7E5002 25.7%, #E69405 44.23%, #FAD121 98.65%);  
+  background-repeat: no-repeat;
+  background-color: #FAD121;
+}
+
+.container-dininho {
+  max-width: 1280px;
+}
+
+.image-header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.section-dininho {
+  color: #fff;  
+  text-align: center;
+}
+
+.section-dininho > .title {
+  font-family: 'Bungee', cursive;  
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 30px;
+  line-height: 36px;
+  color: #fcfdfc;
+  padding-top: 30px;
+}
+
+.section-dininho > .description {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 30px 70px 70px;
+  box-sizing: border-box;
+}
+
+.subtitle {
+  color: #73263D;
+  text-transform: uppercase;
+  font-family: 'Bungee', cursive;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 38px;
+}
+
+.list {
+  font-family: 'Nunito',sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  color: #3D1132;
+  text-align: center;
+  padding: 0px 96px;
+}
+
+.list.-li {
+  padding-bottom: 30px;
+}

@@ -1,16 +1,12 @@
 body {
   background: linear-gradient(
     180deg,
-    #7e5002 25.7%,
+    #7e5002 17.7%,
     #e69405 44.23%,
     #fad121 98.65%
   );
   background-repeat: no-repeat;
   background-color: #fad121;
-}
-
-.container-dininho {
-  max-width: 1280px;
 }
 
 .image-header {
@@ -28,7 +24,7 @@ body {
 .section-dininho > .title {
   font-family: "Bungee", cursive;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 28px;
   margin-bottom: 30px;
   line-height: 36px;
   color: #fcfdfc;
@@ -38,32 +34,52 @@ body {
 .section-dininho > .description {
   font-family: "Nunito", sans-serif;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 33px;
-  padding: 30px 70px 70px;
-  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .subtitle {
   color: #73263d;
   text-transform: uppercase;
   font-family: "Bungee", cursive;
-  font-size: 48px;
-  line-height: 58px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 38px;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: center;
 }
 
 .list {
   font-family: "Nunito", sans-serif;
-  font-size: 24px;
-  line-height: 33px;
+  font-size: 15px;
+  line-height: 20px;
   color: #3d1132;
-  text-align: center;
-  padding: 0px 96px;
+  padding-left: 0;
+  font-weight: bold;
 }
 
-.list.-li {
-  padding-bottom: 30px;
+.description-list {
+  color: #3d1132;
+  padding-left: 0;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  color: #050914;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo.-size {
+  width: 30px;
 }

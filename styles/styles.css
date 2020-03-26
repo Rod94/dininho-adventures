@@ -25,10 +25,9 @@ body {
   font-family: "Bungee", cursive;
   text-transform: uppercase;
   font-size: 28px;
-  margin-bottom: 30px;
+  margin: var(--gap-medium) 0px var(--gap-small);
   line-height: 36px;
   color: #fcfdfc;
-  padding-top: 30px;
 }
 
 .section-dininho > .description {
@@ -36,6 +35,52 @@ body {
   font-weight: bold;
   font-size: 15px;
   line-height: 20px;
+  margin-bottom: var(--gap-small);
+}
+
+.separator-egg {
+  background-image: url("/images/egg.png");
+  background-size: auto 22px;
+  height: 22px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.separator-egg::before,
+.separator-egg::after {
+  content: "";
+  display: inline-block;
+  background: #faffff;
+  border-radius: 5px 0px 0px 5px;
+  height: 2px;
+  width: 46%;
+}
+
+.separator-egg-nest {
+  background-image: url("/images/egg-nest.png");
+  background-size: auto 96px;
+  height: 96px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.separator-egg-nest::before,
+.separator-egg-nest::after {
+  content: "";
+  display: inline-block;
+  background: #faffff;
+  margin-top: var(--gap-medium);
+  border-radius: 5px 0px 0px 5px;
+  height: 2px;
+  width: 42%;
 }
 
 .subtitle {
@@ -45,6 +90,7 @@ body {
   font-size: 26px;
   line-height: 26px;
   text-align: center;
+  margin: var(--gap-small) 0px var(--gap-small);
 }
 
 .list {
@@ -72,12 +118,14 @@ body {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+  margin-bottom: var(--gap-small);
 }
 
 .logo {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: var(--gap-small);
 }
 
 .logo.-size {

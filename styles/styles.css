@@ -1,7 +1,12 @@
-body {  
-  background: linear-gradient(180deg, #7E5002 25.7%, #E69405 44.23%, #FAD121 98.65%);  
+body {
+  background: linear-gradient(
+    180deg,
+    #7e5002 25.7%,
+    #e69405 44.23%,
+    #fad121 98.65%
+  );
   background-repeat: no-repeat;
-  background-color: #FAD121;
+  background-color: #fad121;
 }
 
 .container-dininho {
@@ -16,12 +21,12 @@ body {
 }
 
 .section-dininho {
-  color: #fff;  
+  color: #fff;
   text-align: center;
 }
 
 .section-dininho > .title {
-  font-family: 'Bungee', cursive;  
+  font-family: "Bungee", cursive;
   text-transform: uppercase;
   font-size: 50px;
   margin-bottom: 30px;
@@ -31,7 +36,7 @@ body {
 }
 
 .section-dininho > .description {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 33px;
@@ -40,9 +45,9 @@ body {
 }
 
 .subtitle {
-  color: #73263D;
+  color: #73263d;
   text-transform: uppercase;
-  font-family: 'Bungee', cursive;
+  font-family: "Bungee", cursive;
   font-size: 48px;
   line-height: 58px;
   display: flex;
@@ -51,10 +56,10 @@ body {
 }
 
 .list {
-  font-family: 'Nunito',sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   line-height: 33px;
-  color: #3D1132;
+  color: #3d1132;
   text-align: center;
   padding: 0px 96px;
 }
